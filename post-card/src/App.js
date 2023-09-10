@@ -1,5 +1,5 @@
 import './App.css';
-import { PostCard } from './PostCard';
+import { PostCard } from './components/PostCard';
 
 function App() {
   return (

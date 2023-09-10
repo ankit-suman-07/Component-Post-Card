@@ -1,0 +1,45 @@
+.post-interact {
+    border: 1px solid #222222;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.post-interact-btn {
+    border: 1px solid blue;
+    display: flex;
+    
+}
+
+.post-like-btn {
+    border: 1px solid red;
+    margin-right: 10px;
+    height: 25px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-like-btn img {
+    height: 80%;
+}
+
+.post-comment-btn {
+    border: 1px solid red;
+    height: 25px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-comment-btn img {
+    height: 80%;
+}
+
+.post-like-count {
+    font-size: 10px;
+    margin-left: 5px;
+}
