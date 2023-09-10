@@ -1,10 +1,12 @@
 import React from 'react';
 import "../../css/PostBody.css";
 
+import PostDemo from "../../assets/post-demo.jpg";
+
 export const PostBody = () => {
   return (
     <div className='post-body' >
-      PostBody
+      <img  src={PostDemo} />
     </div>
   )
 }

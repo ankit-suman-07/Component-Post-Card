@@ -1,4 +1,8 @@
 .post-body {
-    border: 2px solid #222222;
+    /* border: 2px solid #222222; */
     height: 400px;
+}
+
+.post-body img{
+    height: 100%;
 }

@@ -1,4 +1,27 @@
 .post-head {
-    border: 2px solid #222222;
+    /* border: 2px solid #222222; */
     height: 40px;
+    display: flex;
+}
+
+.post-head-image {
+    /* border: 1px solid blue; */
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-head-image img {
+    height: 90%;
+    border-radius: 50%;
+}
+
+.post-head-username {
+    /* border: 1px solid red; */
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

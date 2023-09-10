@@ -17,7 +17,6 @@ export const PostCard = () => {
     
   return (
     <div className='post-card' >
-        PostCard
         <PostHead />
         <PostBody />
         <PostInteract toggleCommentDisplay={toggleCommentDisplay} />
